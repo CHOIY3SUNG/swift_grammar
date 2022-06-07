@@ -15,7 +15,7 @@ let num = 10;
 var sumofnum : Int = 0;
 var listsum : [Int] = [];
 
-for i in 0..<num {
+for i in 0...num {
     sumofnum += i;
 }
 print(sumofnum)
