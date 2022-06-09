@@ -27,7 +27,7 @@ optionalIntE = nil      // nil 할당 가능
 // optional 값 추출
 
 // optional binding
-var myname: String! = nil
+var myname: String! = "yesung"
 
 if let name: String = myname {
     print("my name is \(name)")
